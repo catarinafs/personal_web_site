@@ -1,25 +1,36 @@
+/* Color Palette 107482*/
+
+
 body {
-  background-color: #87dfd6;
+  background-color: #bbded6;
   margin: 0;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
+  color: #388C8B;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+
+h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
-h3{
-  font-family: 'Montserrat', sans-serif;
+p {
+  line-height: 2;
 }
+
 
 footer {
   font-size: 10px;
   display: inline;
 }
+
 /**********CLASSES STYLING************/
-
-
 .top-container {
   background-color: #FBFDDC;
   position: relative;
@@ -29,78 +40,181 @@ footer {
 .name {
   color: #388C8B;
   padding-top: 20px;
-  margin-top: 0;
+  margin: 0 auto 0 auto;
   font-family: 'Satisfy', cursive;
+  font-size: 3rem;
+}
+
+.mytitle {
+  font-weight: normal;
 }
 
 .top_cloud {
   position: absolute;
-  left: 65%;
+  left: 75%;
   top: 70px;
+  width: 10%;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 18%;
-  top: 180px;
+  left: 15%;
+  top: 250px;
+  width: 10%;
 }
 
 .mountains {
-  width: 750px;
+  width: 65%;
   position: relative;
   margin-top: 40px;
   margin-bottom: 0;
 }
 
-.my-image-profile{
-  width: 150px;
+.horizontal-dots{
+  border-style: dotted;
+  border-color: #61C0BF;
+  border-width: 6px 0 0 0;
+  width: 50px;
+  border-spacing: 2px;
+
+}
+
+
+
+/** SKILLS **/
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+}
+
+.skill-row-text-left {
+  text-align: left;
+}
+
+.skill-row-text-right {
+  text-align: right;
+}
+
+.my-image-profile {
+  width: 20%;
   margin-top: 20px;
 }
 
-.profile{
-  margin: 30px:
+.profile {
+  margin: 30px auto 30px auto;
+  width: 50%;
 }
 
-.middle-container{
+.h2-greeting {
+  color: #388C8B;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin: 15px auto;
+}
+
+.middle-container {
   margin-top: 20px;
 }
 
 .skill-image-doctor {
-  width: 90px;
+  width: 65%;
   position: relative;
   top: 10px;
 }
+
 .skill-image {
-  width: 120px;
+  width: 75%;
   position: relative;
-  top: 10px;
+  top: 20px;
+  left: 2px;
 }
+
 .skill-image-code {
-  width: 120px;
+  width: 80%;
   position: relative;
-  top: 25px;
+  top: 28px;
+
 }
-.skill-img-container {
+.skill-img-container-left {
   width: 140px;
   height: 140px;
   background-color: #FBFDDC;
   border-radius: 40px 40px 40px 40px;
   position: relative;
-  margin: auto;
-
+  margin-right: 30px;
+  float: left;
 }
 
+.skill-img-container-right {
+  width: 140px;
+  height: 140px;
+  background-color: #FBFDDC;
+  border-radius: 40px 40px 40px 40px;
+  position: relative;
+  margin-left:30px;
+  float: right;
+}
 
+.h3-bottom{
+  color: #388C8B;
+  font-size: 1.5em;
+}
 
 .linkedin {
-  width: 20px;
-  margin-top: 10px;
-  margin-right: 5px;
+  width: 35px;
+  margin-top: 20px;
+  margin-right: 10px;
+  background-color: white;
+  border-radius:3px;
 }
 
 .social {
-  width: 20px;
-  margin-top: 10px;
-  margin-left: 5px;
+  width: 35px;
+  margin-top: 20px;
+  margin-left: 10px;
   border-radius: 2px 2px 2px 2px;
+}
+
+.btn {
+	box-shadow: 0 0 0 2px #388C8B;
+	background:linear-gradient(to bottom, #BBDED6 5%, #388C8B 100%);
+	background-color:#BBDED6;
+	border-radius:10px;
+	border:1px solid #388C8B;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	/* text-shadow:0 1px 0 #3d768a; */
+  margin-bottom: 60px;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #E56970 5%, #FFB6B9 100%);
+	background-color:#FFB6B9;
+  border:1px solid #E56970;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+.bottom-container{
+  background-color: #388C8B;
+}
+
+.copyright {
+  color: white;
+  margin: 30px 0 0 0;
+  padding-bottom: 20px;
+  font-size: 0.8rem;
+}
+
+.attribute {
+  text-decoration: none;
+  display: inline;
 }
