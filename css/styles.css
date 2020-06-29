@@ -1,0 +1,106 @@
+body {
+  background-color: #87dfd6;
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+  font-size: 10px;
+  display: inline;
+}
+/**********CLASSES STYLING************/
+
+
+.top-container {
+  background-color: #FBFDDC;
+  position: relative;
+  padding-top: 100px;
+}
+
+.name {
+  color: #388C8B;
+  padding-top: 20px;
+  margin-top: 0;
+  font-family: 'Satisfy', cursive;
+}
+
+.top_cloud {
+  position: absolute;
+  left: 65%;
+  top: 70px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 18%;
+  top: 180px;
+}
+
+.mountains {
+  width: 750px;
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.my-image-profile{
+  width: 150px;
+  margin-top: 20px;
+}
+
+.profile{
+  margin: 30px:
+}
+
+.middle-container{
+  margin-top: 20px;
+}
+
+.skill-image-doctor {
+  width: 90px;
+  position: relative;
+  top: 10px;
+}
+.skill-image {
+  width: 120px;
+  position: relative;
+  top: 10px;
+}
+.skill-image-code {
+  width: 120px;
+  position: relative;
+  top: 25px;
+}
+.skill-img-container {
+  width: 140px;
+  height: 140px;
+  background-color: #FBFDDC;
+  border-radius: 40px 40px 40px 40px;
+  position: relative;
+  margin: auto;
+
+}
+
+
+
+.linkedin {
+  width: 20px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.social {
+  width: 20px;
+  margin-top: 10px;
+  margin-left: 5px;
+  border-radius: 2px 2px 2px 2px;
+}
