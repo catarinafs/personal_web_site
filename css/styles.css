@@ -203,7 +203,10 @@ footer {
 	top:1px;
 }
 
-
+.icon {
+  color: #fff;
+  padding: 25px 15px 0;
+}
 .bottom-container{
   background-color: #388C8B;
 }
