@@ -29,6 +29,11 @@ footer {
 
 /**********CLASSES STYLING************/
 
+.resources {
+    display: inline-block;
+    margin-left: 3px;
+}
+
 .horizontal-dots {
     width: 60px;
     border-style: dotted none none none;
