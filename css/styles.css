@@ -29,6 +29,13 @@ footer {
 
 /**********CLASSES STYLING************/
 
+.horizontal-dots {
+    width: 60px;
+    border-style: dotted none none none;
+    border-width: 7px;
+    color: #388C8B;
+}
+
 .top-container {
     background-color: #FBFDDC;
     position: relative;
