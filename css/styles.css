@@ -1,224 +1,348 @@
 /* Color Palette 107482*/
 
-
 body {
-  background-color: #bbded6;
-  margin: 0;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
+    background-color: #bbded6;
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
-  color: #388C8B;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
 }
 
-
 h3 {
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 p {
-  line-height: 2;
+    line-height: 2;
 }
-
 
 footer {
-  font-size: 10px;
-  display: inline;
+    font-size: 10px;
+    display: inline;
 }
 
+
 /**********CLASSES STYLING************/
+
 .top-container {
-  background-color: #FBFDDC;
-  position: relative;
-  padding-top: 100px;
+    background-color: #FBFDDC;
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .name {
-  color: #388C8B;
-  padding-top: 20px;
-  margin: 0 auto 0 auto;
-  font-family: 'Satisfy', cursive;
-  font-size: 3rem;
+    color: #388C8B;
+    padding-top: 20px;
+    margin: 0 auto 0 auto;
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
 }
 
 .mytitle {
-  font-weight: normal;
+    font-weight: normal;
 }
 
 .top_cloud {
-  position: absolute;
-  left: 75%;
-  top: 70px;
-  width: 10%;
+    position: absolute;
+    left: 75%;
+    top: 70px;
+    width: 10%;
 }
 
 .bottom-cloud {
-  position: absolute;
-  left: 15%;
-  top: 250px;
-  width: 10%;
+    position: absolute;
+    left: 15%;
+    top: 230px;
+    width: 10%;
 }
 
 .mountains {
-  width: 65%;
-  position: relative;
-  margin-top: 40px;
-  margin-bottom: 0;
+    width: 65%;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 0;
 }
-
-.horizontal-dots{
-  border-style: dotted;
-  border-color: #61C0BF;
-  border-width: 6px 0 0 0;
-  width: 50px;
-  border-spacing: 2px;
-
-}
-
 
 
 /** SKILLS **/
 
 .skill-row {
-  width: 50%;
-  margin: 50px auto 50px auto;
+    width: 50%;
+    margin: 50px auto 50px auto;
 }
 
 .skill-row-text-left {
-  text-align: left;
-  text-align: justify;
+    text-align: left;
+    text-align: justify;
 }
 
 .skill-row-text-right {
-  text-align: right;
-  text-align: justify;
+    text-align: right;
+    text-align: justify;
 }
 
 .my-image-profile {
-  width: 20%;
-  margin-top: 20px;
+    width: 20%;
+    margin-top: 20px;
 }
 
 .profile {
-  margin: 30px auto 30px auto;
-  width: 50%;
+    margin: 30px auto 30px auto;
+    width: 50%;
 }
 
 .h2-greeting {
-  color: #388C8B;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  margin: 15px auto;
+    color: #388C8B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin: 15px auto;
+}
+
+.subheader {
+    font-size: 1.8rem;
+    margin: 40px auto;
 }
 
 .middle-container {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 .skill-image-doctor {
-  width: 65%;
-  position: relative;
-  top: 10px;
+    width: 65%;
+    position: relative;
+    top: 10px;
 }
 
 .skill-image {
-  width: 75%;
-  position: relative;
-  top: 20px;
-  left: 2px;
+    width: 75%;
+    position: relative;
+    top: 20px;
+    left: 2px;
 }
 
 .skill-image-code {
-  width: 80%;
-  position: relative;
-  top: 28px;
-
+    width: 80%;
+    position: relative;
+    top: 28px;
 }
+
 .skill-img-container-left {
-  width: 140px;
-  height: 140px;
-  background-color: #FBFDDC;
-  border-radius: 40px 40px 40px 40px;
-  position: relative;
-  margin-right: 30px;
-  float: left;
+    width: 140px;
+    height: 140px;
+    background-color: #FBFDDC;
+    border-radius: 40px 40px 40px 40px;
+    position: relative;
+    margin-right: 30px;
+    float: left;
 }
 
 .skill-img-container-right {
-  width: 140px;
-  height: 140px;
-  background-color: #FBFDDC;
-  border-radius: 40px 40px 40px 40px;
-  position: relative;
-  margin-left:30px;
-  float: right;
+    width: 140px;
+    height: 140px;
+    background-color: #FBFDDC;
+    border-radius: 40px 40px 40px 40px;
+    position: relative;
+    margin-left: 30px;
+    float: right;
 }
 
-.h3-bottom{
-  color: #388C8B;
-  font-size: 1.5em;
+.qualifications {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.qual-date {
+    display: inline-block;
+}
+
+.h3-bottom {
+    color: #388C8B;
+    font-size: 1.5em;
 }
 
 .linkedin {
-  width: 37.5px;
-  margin-top: 20px;
-  margin-right: 10px;
-  border-radius:3px;
+    width: 37.5px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 3px;
 }
 
 .social {
-  width: 35px;
-  margin-top: 20px;
-  margin-left: 10px;
-  border-radius: 4px 4px 4px 4px;
+    width: 35px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 4px 4px 4px 4px;
 }
 
 .btn {
-	box-shadow: 0 0 0 2px #388C8B;
-	background:linear-gradient(to bottom, #BBDED6 5%, #388C8B 100%);
-	background-color:#BBDED6;
-	border-radius:10px;
-	border:1px solid #388C8B;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Verdana;
-	font-size:19px;
-	padding:12px 37px;
-	text-decoration:none;
-	/* text-shadow:0 1px 0 #3d768a; */
-  margin-bottom: 60px;
+    box-shadow: 0 0 0 2px #388C8B;
+    background: linear-gradient(to bottom, #BBDED6 5%, #388C8B 100%);
+    background-color: #BBDED6;
+    border-radius: 10px;
+    border: 1px solid #388C8B;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Verdana;
+    font-size: 19px;
+    padding: 12px 37px;
+    text-decoration: none;
+    /* text-shadow:0 1px 0 #3d768a; */
+    margin-bottom: 60px;
 }
+
 .btn:hover {
-	background:linear-gradient(to bottom, #E56970 5%, #FFB6B9 100%);
-	background-color:#FFB6B9;
-  border:1px solid #E56970;
+    background: linear-gradient(to bottom, #E56970 5%, #FFB6B9 100%);
+    background-color: #FFB6B9;
+    border: 1px solid #E56970;
 }
+
 .btn:active {
-	position:relative;
-	top:1px;
+    position: relative;
+    top: 1px;
 }
 
 .icon {
-  color: #fff;
-  padding: 25px 15px 0;
+    color: #fff;
+    padding: 25px 15px 0;
 }
-.bottom-container{
-  background-color: #388C8B;
+
+.bottom-container {
+    background-color: #388C8B;
 }
 
 .copyright {
-  color: white;
-  margin: 30px 0 0 0;
-  padding-bottom: 20px;
-  font-size: 0.8rem;
+    color: white;
+    margin: 30px 0 0 0;
+    padding-bottom: 20px;
+    font-size: 0.8rem;
 }
 
 .attribute {
-  text-decoration: none;
-  display: inline;
+    text-decoration: none;
+    display: inline;
 }
+
+
+/*courses*/
+
+.courses {
+    text-align: left;
+    margin-left: 50px;
+    line-height: 2;
+}
+
+.courses-completed {
+    list-style-type: none;
+}
+
+.check {
+    color: #388C8B;
+}
+
+progress {
+    margin-left: 20px;
+    width: 100px;
+}
+
+.container {
+    margin-left: 20px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+.progress2 {
+    padding: 1px;
+    border-radius: 30px;
+    background: #fff;
+    /* box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08); */
+}
+
+.progress-bar2 {
+    height: 9px;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom, #4fb8b6, #388C8B);
+    /* transition: 0.4s linear;
+    transition-property: width, background-color; */
+}
+
+
+/*Resources page*/
+
+.section-grid h2 {
+    font-size: 30px;
+}
+
+.section-grid h3 {
+    margin: 0 auto;
+}
+
+.section-grid h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.section-grid {
+    text-align: left;
+    margin: 50px 50px;
+}
+
+.blog {
+    color: #388C8B;
+    text-decoration: none;
+}
+
+.list {
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 25px;
+    row-gap: 25px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 20px 10px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 150px;
+    /* background-image: url(../images/flux.jpg); */
+}
+
+.card p {
+    margin: 3px auto;
+}
+
+.card-desc {
+    position: relative;
+    padding: 0;
+}
+
+.card-header {
+    height: 35px;
+}
+
+.img-card {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    float: right;
+    margin-top: auto;
+}
+
+
+/* .img-card-ctnr {
+    /* margin-left: 150px;
+    margin-top: 10px;  
+} */
